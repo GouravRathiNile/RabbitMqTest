@@ -7,6 +7,8 @@ const createOrder = async (req, res) => {
 
        
 console.log(req.body);
+
+console.log(req.body);
         publishMessage(req.body);
 
         return res.status(201).json({
