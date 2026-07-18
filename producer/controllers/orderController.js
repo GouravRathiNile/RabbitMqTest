@@ -6,7 +6,7 @@ const createOrder = async (req, res) => {
         const { orderId, product, quantity } = req.body;
 
        
-
+console.log(req.body);
         publishMessage(req.body);
 
         return res.status(201).json({
